@@ -9,9 +9,6 @@ class Song
     @@all << self
   end
   
-  def self.new(name)
-  end
-  
   def self.all
     @@all
   end
