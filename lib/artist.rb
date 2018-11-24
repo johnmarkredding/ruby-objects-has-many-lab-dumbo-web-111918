@@ -9,10 +9,6 @@ class Artist
     @songs = []
   end
   
-  def new(name)
-    @name = name
-  end
-  
   def add_song(song)
     @songs << Song.new(song)
     song.artist = self
