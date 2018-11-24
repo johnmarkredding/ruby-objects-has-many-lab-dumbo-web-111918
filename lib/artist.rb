@@ -18,5 +18,4 @@ class Artist
     song = Song.new(name)
     self.add_song(song)
   end
-  
 end
